@@ -1,6 +1,6 @@
 <template>
 	<view>
-		cart
+		商品列表也
 	</view>
 </template>
 
