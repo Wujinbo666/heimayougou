@@ -21,5 +21,11 @@ export default {
 			url: "/api/public/v1/home/floordata",
 			method: "get"
 		})
-	}
+	},
+	getCateList: function() {
+		return request({
+			url: "/api/public/v1/categories",
+			method: "get"
+		})
+	},
 }

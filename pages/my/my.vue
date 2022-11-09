@@ -1,6 +1,8 @@
 <template>
 	<view>
-		my
+		<view>
+			
+		</view>
 	</view>
 </template>
 
@@ -8,7 +10,7 @@
 	export default {
 		data() {
 			return {
-				
+
 			};
 		}
 	}
