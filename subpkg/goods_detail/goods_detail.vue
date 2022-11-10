@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+				<uni-icons type="trash" size="17">1</uni-icons>
 	</view>
 </template>
 

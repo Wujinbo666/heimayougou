@@ -28,4 +28,11 @@ export default {
 			method: "get"
 		})
 	},
+	getSearchList: function(data) {
+		return request({
+			url: "/api/public/v1/goods/qsearch",
+			method: "get",
+			data
+		})
+	},
 }
