@@ -42,4 +42,11 @@ export default {
 			data
 		})
 	},
+	getGoodsDetail: function(data) {
+		return request({
+			url: "/api/public/v1/goods/detail",
+			method: "get",
+			data
+		})
+	},
 }
