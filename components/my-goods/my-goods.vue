@@ -32,12 +32,12 @@
 				defaultPic: 'https://img3.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png',
 			}
 		},
-		filters: {
-		  // 把数字处理为带两位小数点的数字
-		  tofixed(num) {
-		    return Number(num).toFixed(2)
-		  }
-		}
+		// filters: {
+		//   // 把数字处理为带两位小数点的数字
+		//   tofixed(num) {
+		//     return Number(num).toFixed(2)
+		//   }
+		// }
 	}
 </script>
 
