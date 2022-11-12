@@ -111,7 +111,7 @@
 			// 点击跳转到商品列表页面
 			gotoGoodsList(kw) {
 			  uni.navigateTo({
-			    url: '/subpkg/goods_list/goods_list?query=' + kw
+			    url: '/subpkg/good_list/good_list?query=' + kw
 			  })
 			}
 		}

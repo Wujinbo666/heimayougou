@@ -35,4 +35,11 @@ export default {
 			data
 		})
 	},
+	getGoodsList: function(data) {
+		return request({
+			url: "/api/public/v1/goods/search",
+			method: "get",
+			data
+		})
+	},
 }
